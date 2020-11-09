@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.navbar #navbar {
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    background-color: black;
+    padding-top: 1.5vh;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar #home, .navbar #menu_fotografia, .navbar #menu_desenho, .navbar #menu_sobre {
+    margin-left: 5vh;
+}
+
+.navbar #home {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 5vh;
+}
+
+.container {
+    margin-top: 27px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.container #img-af {
+    margin-top: 5vh;
+}
+
+.container .autorretrato #img-af {
+    width: 100%;
+    height: 100%;
+}
+
+.container .conteudo-sobre {
+    text-align: justify;
+    margin-top: 3vh;
+    margin-left: 11vh;
+    margin-right: 11vh;
+}
+
+.container .conteudo-sobre #titulo-sobre {
+    font-weight: 400;
+}
+
+.container .desenho-texto {
+    text-align: right;
+}
